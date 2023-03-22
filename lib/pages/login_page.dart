@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                               labelText: "Username"),
                           validator: (value) {
                             if (value!.isEmpty) {
-                              return "Username Cannot be empty";
+                              return " Username Cannot be empty";
                             }
                             return null;
                           },
